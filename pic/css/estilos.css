@@ -1,0 +1,260 @@
+@import url('https://fonts.googleapis.com/css2? family = STIX + Two + Math & display = swap');
+@import url(menu.css);
+@import url(info.css);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'STIX Two Math', serif;
+}
+header{
+    width: 100%;
+    height: 60px;
+    background: #fc9d10;
+    color: #fff;
+    position: fixed;
+    top:0px;
+    left: 0;
+    z-index: 100;
+}
+.contenedor {
+    width: 98%;
+    margin: auto;
+}
+h1{
+    float: left;
+}
+header.contenedor{
+    display: table;
+}
+.slider{
+    width: 100%;
+    margin: 0%;
+    overflow: hidden;
+}
+.slider ul{
+    padding: 0; 
+    display: flex;
+    width: 400%;
+    animation: cambio 20s infinite alternate;
+    animation-timing-function: ease-in;
+}
+.slider li {
+    width: 100%;
+    list-style: none;
+}
+.slider img {
+    width: 100%;
+    height: 60%;
+}
+@keyframes cambio {
+    0% {margin-left: 0;}
+    20% {margin-left: 0;}
+
+    25% {margin-left: -100%;}
+    45% {margin-left: -100%;}
+
+    50% {margin-left: -200%;}
+    70% {margin-left: -200%;}
+
+    75% {margin-left: -300%;}
+    100% {margin-left: -300%;}
+}
+#bienvenidos {
+    width: 100%;
+    height: 50px;
+    background: rgb(252, 157, 16);
+    color: #fff;
+    position: absolute;
+    top: 703px;
+    left: 0;
+}
+body{
+    background: #fff;
+    margin: 0;
+    font-family: monospace;
+}
+.galeria {
+    width: 90%;
+    margin: auto;
+    list-style: none;
+    padding: 30px;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.galeria li {
+    margin: 5px;
+}
+.galeria img {
+    width: 250px;
+    height: 300px;
+
+}
+.galeria h2{
+    text-align: center;
+}
+#bienvenidos1 {
+    width: 100%;
+    height: 50px;
+    background: rgb(252, 157, 16);
+    color: #fff;
+    position: absolute;
+    top: 1215px;
+    left: 0;
+}
+body{
+    background: #fff;
+    margin: 0;
+    font-family: monospace
+}
+.galeria {
+    width: 90%;
+    margin: auto;
+    list-style: none;
+    padding: 30px;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.galeria li {
+    margin: 5px;
+}
+.galeria img {
+    width: 250px;
+    height: 300px;
+
+}
+.galeria h2{
+    text-align: center;
+}
+.galeria3 {
+    width: 90%;
+    margin: auto;
+    list-style: none;
+    padding: 30px;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.galeria3 li {
+    margin: 5px;
+}
+.galeria3 img {
+    width: 250px;
+    height: 300px;
+    background-color: #949596;
+    padding: 70px 0;
+
+}
+#bienvenidos2 {
+    width: 100%;
+    height: 50px;
+    background: #fc9d10;
+    color: #fff;
+    position: absolute;
+    top: 1620px;
+    left: 0;
+}
+body{
+    background: #fff;
+    margin: 0;
+    font-family: monospace;
+}
+.galeria {
+    width: 90%;
+    margin: auto;
+    list-style: none;
+    padding: 30px;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.galeria li {
+    margin: 5px;
+}
+.galeria img {
+    width: 250px;
+    height: 300px;
+
+}
+.galeria h2{
+    text-align: center;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.contrainer{
+    max-width: 1170px;
+    background-color: red;
+    margin: auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+ul{
+    list-style: none;
+}
+.footer{
+    background-color: #24262b;
+    padding: 70px 0;
+}
+.footer-col{
+    width: 25%;
+    padding: 0 15px;
+}
+.footer-col h2{
+    font-size: 18px;
+    color: #ffff;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    font-weight: 500;
+    position: relative;
+}
+.footer-col h2{
+    content: "" ;
+    position: relative;
+    left: 0;
+    bottom: 15px;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+}
+.footer-col ul il:not(:last-child){
+    margin-bottom: 10px;
+}
+.footer-col ul li a{
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 300;
+    color: #bbb;
+    display: block;
+    transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+    color: #fff;
+    padding-left: 8px;
+}
+.footer-col .social-links {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(255,255,255,0.2);
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #fff;
+    transition: all 0.5s ease;
+}

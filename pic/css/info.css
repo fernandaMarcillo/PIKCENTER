@@ -1,0 +1,17 @@
+#info .contenedor{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 520px;
+    text-align: center;
+}
+.info-pet{
+    margin: 10px;
+}
+.info-pet img {
+    width: 150px;
+    height: 150px;
+    border-radius: 150%;
+    border: 3px solid #fff;
+    position: relative;
+}
